@@ -14,8 +14,8 @@ const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO);
     console.log("Connected to database!");
-  } catch (error) {
-    throw error;
+  } catch (err) {
+    throw err;
   }
 };
 
@@ -40,12 +40,12 @@ app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
 app.use((err, req, res, next) => {
-  const errorStatus = err.status || 500;
-  const errorMessage = err.message || "Something went wrong!";
-  return res.status(errorStatus).json({
+  const errStatus = err.status || 500;
+  const errMessage = err.message || "Something went wrong!";
+  return res.status(errStatus).json({
     success: false,
-    status: errorStatus,
-    message: errorMessage,
+    status: errStatus,
+    message: errMessage,
     stack: err.stack
   });
 });
