@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
+import cors from "cors";
 import mongoose from "mongoose";
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
@@ -31,6 +32,7 @@ app.get("/", (req, res) => {
 });
 
 // middlewares
+app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
 

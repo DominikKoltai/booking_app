@@ -1,6 +1,7 @@
 .navbar {
   height: 50px;
-  background-color: darkred;
+  background-color: #4618ac;
+  border-bottom: 1px solid #1f0a4e;
   display: flex;
   justify-content: center;
 }
@@ -15,13 +16,14 @@
 }
 
 .logo {
-  font-weight: 500;
+  height: 50px;
+  cursor: pointer;
 }
 
 .navButton {
-  margin-left: 20px;
   border: none;
-  padding: 5px 10px;
+  padding: 5px 20px;
   cursor: pointer;
-  color: darkred;
+  color: white;
+  background-color :#4618ac;
 }

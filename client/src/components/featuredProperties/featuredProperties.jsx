@@ -5,7 +5,7 @@ const FeaturedProperties = () => {
     <div className="fp">
       <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
+          src="https://aparthotel-stare-miasto-krakow.booked.hu/data/Photos/OriginalPhoto/12195/1219531/1219531900/Aparthotel-Stare-Miasto-Krakow-Exterior.JPEG"
           alt=""
           className="fpImg"
         />
@@ -19,12 +19,12 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/215955381.jpg?k=ff739d1d9e0c8e233f78ee3ced82743ef0355e925df8db7135d83b55a00ca07a&o=&hp=1"
+          src="https://www.corinthia.com/media/2131/corinthia-budapest-executive-suite-master.jpg"
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Comfort Suites Airport</span>
-        <span className="fpCity">Austin</span>
+        <span className="fpName">Corinthia Hotels</span>
+        <span className="fpCity">Budapest</span>
         <span className="fpPrice">Starting from $140</span>
         <div className="fpRating">
           <button>9.3</button>
@@ -33,12 +33,12 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/232902339.jpg?k=3947def526b8af0429568b44f9716e79667d640842c48de5e66fd2a8b776accd&o=&hp=1"
+          src="https://app-neos.h-hotels.com/_Resources/Persistent/5/d/5/1/5d5165882eb37610609fd5a4199d6471120881f6/zimmer-komfort-twin-zimmers-01-hyperion-hotel-berlin.jpg"
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Four Seasons Hotel</span>
-        <span className="fpCity">Lisbon</span>
+        <span className="fpName">Hyperion Hotel</span>
+        <span className="fpCity">Berlin</span>
         <span className="fpPrice">Starting from $99</span>
         <div className="fpRating">
           <button>8.8</button>
@@ -47,7 +47,7 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/322658536.jpg?k=3fffe63a365fd0ccdc59210188e55188cdb7448b9ec1ddb71b0843172138ec07&o=&hp=1"
+          src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/woodlands/HOUWDGI_One-King_1_2D61F6DA-5056-B3A8-49CD0E011981C75F-2d61f41b5056b3a_2d61f72c-5056-b3a8-491110c45e7768a5.jpg"
           alt=""
           className="fpImg"
         />
