@@ -6,8 +6,8 @@ pipeline {
     }
 
     environment {
-        MONGO = credentials('mongo')
-        JWT = credentials('jwt')
+        MONGO = credentials('MONGO')
+        JWT = credentials('JWT')
     }
 
     stages {
