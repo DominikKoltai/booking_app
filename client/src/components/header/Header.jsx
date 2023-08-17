@@ -35,6 +35,7 @@ const Header = ({ type }) => {
 
   const navigate = useNavigate();
 
+  // Function to handle incrementing or decrementing options
   const handleOption = (name, operation) => {
     setOptions((prev) => {
       return {
@@ -44,6 +45,7 @@ const Header = ({ type }) => {
     });
   };
 
+  // Function to handle the search button click
   const handleSearch = () => {
     navigate("/hotels", { state: { destination, date, options } });
   };
@@ -86,7 +88,7 @@ const Header = ({ type }) => {
               Your gateway to limitless adventures and unforgettable experiences
               around the world.
             </p>
-            <button className="headerBtn">Sign in / Register</button>
+            <button className="headerBtn">Sign In / Register</button>
             <div className="headerSearch">
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faHotel} className="headerIcon" />

@@ -2,7 +2,7 @@ import useFetch from "../../hooks/useFetch";
 import "./featured.css";
 
 const Featured = () => {
-  const { data, loading } = useFetch("hotels/countByCity?cities=Madrid,Budapest,Berlin");
+  const { data, loading } = useFetch("/hotels/countByCity?cities=Madrid,Budapest,Berlin");
 
   return (
     <div className="featured">
